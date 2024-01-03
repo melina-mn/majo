@@ -8,7 +8,7 @@ const Quiz = () => {
   let [question,setQuestion] = useState(data[index]);
 
   const checkAns = (e , ans) => {
-     if(questuin.ans===ans){
+     if(question.ans===ans){
         e.target.classList.add("correct");
      }
      else{
