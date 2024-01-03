@@ -21,7 +21,7 @@
   text-align: center;
 }
 body{
-  background-image: url(../Quiz/images/2.jpg) ;
+  background-image: url(images/2.jpg) ;
   background-position: center;
   /* background-size: cover; */
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body{
 .container ul li{
   font-family: 'Amatic SC', sans-serif;
   /* background: #fff; */
-  background-image:url(../Quiz/images/1.jpg);
+  background-image:url(images/1.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -74,4 +74,13 @@ body{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 6px;
+}
+
+.correct{
+  background: #fff;
+  border-color: #9aeabc;
+}
+
+.wrong{
+  border-color: #ff9393;
 }
