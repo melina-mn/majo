@@ -76,11 +76,11 @@ body{
   gap: 6px;
 }
 
-.correct{
-  background: #fff;
-  border-color: #9aeabc;
+.container .correct{
+  
+  background: #9aeabc;
 }
 
-.wrong{
-  border-color: #ff9393;
+.container .wrong{
+  background: #ff9393;
 }
