@@ -32,12 +32,12 @@ body{
 .container ul li{
   font-family: 'Amatic SC', sans-serif;
   /* background: #fff; */
-  background-image:url(images/1.jpg);
+  background-image:url(images/5.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
-  color: #000000;
-  font-weight: 200;
+  color: #f3e9e9;
+  font-weight:300;
   width: 100%;
   border: 2px inset #eeca67;
   padding: 10px;
@@ -45,7 +45,7 @@ body{
   text-align: center;
   border-radius: 4px;
   cursor:pointer;
-  transition: all 1s;
+  transition: all 0.3s;
   list-style: none;
 }
 .container ul li:hover:not([disabled]){ 
